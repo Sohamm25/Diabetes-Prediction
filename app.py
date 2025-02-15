@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split, GridSearchCV
 df = pd.read_csv("diabetes.csv")
 zero_features = ['Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'BMI']
 data_mean = df[zero_features].mean()
-df[zero_features] = df[zero_features].replace(0, data_mean)
+df[zero_features] = df[zero_features].replace(0, data_mean) 
 X = df.drop('Outcome', axis=1)
 y = df['Outcome']
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=5)
