@@ -5,7 +5,7 @@
 Welcome to the Diabetes Prediction Project! This project aims to help predict if a person might have diabetes by looking at their health information. The project is managed by **Soham Pawar**, who is learning about machine learning and how it can be used to help people.
 
 ## Dataset
-
+ 
 The dataset used in this project contains diagnostic measurements from female individuals of Pima Indian heritage, aged 21 years or older. It comprises essential features such as pregnancies, glucose concentration, blood pressure, skin thickness, insulin level, BMI, diabetes pedigree function, and age.
 
 ## Tip:
